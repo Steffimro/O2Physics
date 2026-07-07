@@ -2591,8 +2591,8 @@ struct Photonhbt {
             poolBin.pop_front();
         }
       } // end cfgDoTruthMix
-    }   // end collision loop
-  }     // end runTruthEfficiency
+    } // end collision loop
+  } // end runTruthEfficiency
 
   using MyEMH = o2::aod::pwgem::dilepton::utils::EventMixingHandler<
     std::tuple<int, int, int, int>, std::pair<int, int>, PhotonWithLegs>;
