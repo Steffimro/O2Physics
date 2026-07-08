@@ -2363,8 +2363,8 @@ struct Photonhbt {
             poolBin.pop_front();
         }
       } // end cfgDoTruthMix
-    }   // end collision loop
-  }     // end runTruthEfficiency
+    } // end collision loop
+  } // end runTruthEfficiency
 
   /*************************************************/
   // PROCESS FUNCTIONS
