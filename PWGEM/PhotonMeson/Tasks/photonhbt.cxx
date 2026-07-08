@@ -55,8 +55,8 @@
 #include <functional>
 #include <initializer_list>
 #include <map>
-#include <random>
 #include <memory>
+#include <random>
 #include <string>
 #include <string_view>
 #include <tuple>
@@ -2364,8 +2364,8 @@ struct Photonhbt {
             poolBin.pop_front();
         }
       } // end cfgDoTruthMix
-    }   // end collision loop
-  }     // end runTruthEfficiency
+    } // end collision loop
+  } // end runTruthEfficiency
 
   /*************************************************/
   // PROCESS FUNCTIONS
