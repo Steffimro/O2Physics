@@ -512,7 +512,6 @@ struct Photonhbt {
   // INITS
   /*************************************************/
 
-
   bool mDoPairQa{true}, mDoSinglePhotonQa{true}, mDoLegPairQA{true};
   bool mDoPairSepQA{true}, mFillDRDZSparse{true};
 
