@@ -3306,7 +3306,7 @@ struct PhotonConversionBuilder {
   }
 
   // run 2: cache one table iterator per leg of this artificial event for the mixed-event photon pair analysis, to avoid repeated lookups in the legs table
-  template <typename TMixCollision, typename TMixLegs>
+  template <o2::soa::is_iterator TMixCollision, o2::soa::is_table TMixLegs>
   void cacheLegsOf(TMixCollision const& collision, TMixLegs const& legs)
   {
     mLegItFirst = collision.firstLeg();
